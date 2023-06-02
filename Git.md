@@ -19,6 +19,19 @@ En Git, "CR LF" se refiere a la combinación de caracteres "Carriage Return" (re
 
 Cuando se usa sitema operativo Windows se utilizará el comando True, si se utiliza Linux o Mac utilizar Input
 
+## Comandos básicos 
 
+ls= listado de carpetas y archivos 
+pwd= directorio donde nos encontramos actualmente
+cd (carpeta donde nos queremos mover)/ = nos permite navegar entre directorios 
+cd .. = nos permite regresar a un directorio anterior 
+mkdir (nombre nuevo directorio ) = crear un nuevo repositorio
+git init = crear un nuevo repositorio para trabajar con git
 
+## Flujo de trabajo en Git
+El comando git status permite conocer el estatus de nustro codigo y sus cambios
 
+Computador = aquello con lo que estamos trabajando 
+Stage= Elementos que han cambiado, se pueden seleccionar aquellos que se quieren mantener y aquellos que se eliminaran 
+Commit= comprometemos los cambios elegidos, se aplican estos cambios en el codigo
+Server= Este proyecto con sus cambios se comparte en la nube
