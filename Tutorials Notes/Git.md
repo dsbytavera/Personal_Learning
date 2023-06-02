@@ -7,13 +7,13 @@ Git es una herramienta que permite llevar a cabo un control del código en el cu
 
 En caso de usar windows, NO utilizar la terminal del sistema operativo con estos comandos, es necesatio descargar Git Bash 
 
-dsbyalberto@Nautilus:~$ git config --global user.name "Alberto Tavera"
+* dsbyalberto@Nautilus:~$ git config --global user.name "Alberto Tavera"
 
-dsbyalberto@Nautilus:~$ git config --global user.email atavera.galicia@gmail.com
+* dsbyalberto@Nautilus:~$ git config --global user.email atavera.galicia@gmail.com
 
-dsbyalberto@Nautilus:~$ git config --global core.editor "code --wait"
+* dsbyalberto@Nautilus:~$ git config --global core.editor "code --wait"
 
-dsbyalberto@Nautilus:~$ git config --global -e
+* dsbyalberto@Nautilus:~$ git config --global -e
 
 ### CR LF configuración
 
@@ -25,25 +25,25 @@ Cuando se usa sitema operativo Windows se utilizará el comando True, si se util
 
 ## Comandos básicos 
 
-ls= listado de carpetas y archivos 
+* ls= listado de carpetas y archivos 
 
-pwd= directorio donde nos encontramos actualmente
+* pwd= directorio donde nos encontramos actualmente
 
-cd (carpeta donde nos queremos mover)/ = nos permite navegar entre directorios 
+* cd (carpeta donde nos queremos mover)/ = nos permite navegar entre directorios 
 
-cd .. = nos permite regresar a un directorio anterior 
+* cd .. = nos permite regresar a un directorio anterior 
 
-mkdir (nombre nuevo directorio ) = crear un nuevo repositorio
+* mkdir (nombre nuevo directorio ) = crear un nuevo repositorio
 
-git init = crear un nuevo repositorio para trabajar con git
+* git init = crear un nuevo repositorio para trabajar con git
 
 ## Flujo de trabajo en Git
 El comando git status permite conocer el estatus de nuestro código y sus cambios
 
-Computador = aquello con lo que estamos trabajando : una vez que hemos realizado cambion podemos mandarlos al estado de Stage, es decir cuando guardamos esos cambios de manera tentativa, de tal manera que se pueden revisar posterioremente, para poder mandar a stage se utiliza el comando git add (nombre del archivo/código con el que estamos trabajando). 
+* Computador = aquello con lo que estamos trabajando : una vez que hemos realizado cambion podemos mandarlos al estado de Stage, es decir cuando guardamos esos cambios de manera tentativa, de tal manera que se pueden revisar posterioremente, para poder mandar a stage se utiliza el comando git add (nombre del archivo/código con el que estamos trabajando). 
 
-Stage= Elementos que han cambiado, se pueden seleccionar aquellos que se quieren mantener y aquellos que se eliminaran 
+* Stage= Elementos que han cambiado, se pueden seleccionar aquellos que se quieren mantener y aquellos que se eliminaran 
 
-Commit= comprometemos los cambios elegidos, se aplican estos cambios en el código
+* Commit= comprometemos los cambios elegidos, se aplican estos cambios en el código
 
-Server= Este proyecto con sus cambios se comparte en la nube
+* Server= Este proyecto con sus cambios se comparte en la nube
