@@ -31,7 +31,7 @@ git init = crear un nuevo repositorio para trabajar con git
 ## Flujo de trabajo en Git
 El comando git status permite conocer el estatus de nustro codigo y sus cambios
 
-Computador = aquello con lo que estamos trabajando 
+Computador = aquello con lo que estamos trabajando : una vez que hemos realizado cambion podemos mandarlos al estado de Stage, es decir cuando guardamos esos cambios de manera tentativa, de tal manera que se pueden revisar posterioremente, para poder mandar a stage se utiliza el comando git add (nombre del archivo/codigo con el que estamos trabajando). 
 Stage= Elementos que han cambiado, se pueden seleccionar aquellos que se quieren mantener y aquellos que se eliminaran 
 Commit= comprometemos los cambios elegidos, se aplican estos cambios en el codigo
 Server= Este proyecto con sus cambios se comparte en la nube
