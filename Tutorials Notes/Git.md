@@ -40,7 +40,7 @@ Cuando se usa sitema operativo Windows se utilizará el comando True, si se util
 ## Flujo de trabajo en Git
 El comando [git status] permite conocer el estatus de nuestro código y sus cambios
 
-* Computador = aquello con lo que estamos trabajando : una vez que hemos realizado cambion podemos mandarlos al estado de Stage, es decir cuando guardamos esos cambios de manera tentativa, de tal manera que se pueden revisar posterioremente, para poder mandar a stage se utiliza el comando [git add] + (nombre del archivo/código con el que estamos trabajando). 
+* Computador = aquello con lo que estamos trabajando : una vez que hemos realizado cambion podemos mandarlos al estado de Stage, es decir cuando guardamos esos cambios de manera tentativa, de tal manera que se pueden revisar posterioremente, para poder mandar a stage se utiliza el comando [git add (nombre del archivo/código con el que estamos trabajando)]. 
 
 * Stage= Elementos que han cambiado, se pueden seleccionar aquellos que se quieren mantener y aquellos que se eliminaran 
 
