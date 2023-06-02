@@ -1,6 +1,6 @@
 # Git
 
-Git es una herramienta que permite llevar a cabo un control del codigo en el cual se este trabajando, de tal manera que se pueden revisar versiones de un mismo código, trabajar en equipo, descentralizar el trabajo, etc. Existen interfaces gráficas que permiten trabajar con git, tales como github, sin embargo estas presentan algunas limitantes, es por eso que resulta pertinente el uso de la terminal de git para trabajar. A continuación encontraremos algunas de las notas retomadas del curso básico de git: https://www.youtube.com/watch?v=VdGzPZ31ts8
+Git es una herramienta que permite llevar a cabo un control del código en el cual se este trabajando, de tal manera que se pueden revisar versiones de un mismo código, trabajar en equipo, descentralizar el trabajo, etc. Existen interfaces gráficas que permiten trabajar con git, tales como github, sin embargo estas presentan algunas limitantes, es por eso que resulta pertinente el uso de la terminal de git para trabajar. A continuación encontraremos algunas de las notas retomadas del curso básico de git: https://www.youtube.com/watch?v=VdGzPZ31ts8
 
 
 ## Configuración de Git en terminal de linux
@@ -38,12 +38,12 @@ mkdir (nombre nuevo directorio ) = crear un nuevo repositorio
 git init = crear un nuevo repositorio para trabajar con git
 
 ## Flujo de trabajo en Git
-El comando git status permite conocer el estatus de nustro codigo y sus cambios
+El comando git status permite conocer el estatus de nuestro código y sus cambios
 
-Computador = aquello con lo que estamos trabajando : una vez que hemos realizado cambion podemos mandarlos al estado de Stage, es decir cuando guardamos esos cambios de manera tentativa, de tal manera que se pueden revisar posterioremente, para poder mandar a stage se utiliza el comando git add (nombre del archivo/codigo con el que estamos trabajando). 
+Computador = aquello con lo que estamos trabajando : una vez que hemos realizado cambion podemos mandarlos al estado de Stage, es decir cuando guardamos esos cambios de manera tentativa, de tal manera que se pueden revisar posterioremente, para poder mandar a stage se utiliza el comando git add (nombre del archivo/código con el que estamos trabajando). 
 
 Stage= Elementos que han cambiado, se pueden seleccionar aquellos que se quieren mantener y aquellos que se eliminaran 
 
-Commit= comprometemos los cambios elegidos, se aplican estos cambios en el codigo
+Commit= comprometemos los cambios elegidos, se aplican estos cambios en el código
 
 Server= Este proyecto con sus cambios se comparte en la nube
