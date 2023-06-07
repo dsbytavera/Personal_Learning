@@ -35,7 +35,11 @@ Prara crear una variable en Java es necesario declarar primeramente el tipo de d
 
 **String** *marca* = ***"Taragüi"***
 
-## Operadores aritméticos
+## Operadores
+
+Los operadores en Java son símbolos especiales que se utilizan para realizar operaciones en variables y valores. Permiten combinar, comparar y manipular datos. Estos operadores ayudan a realizar cálculos, evaluar condiciones y controlar el flujo del programa. Son fundamentales para realizar operaciones matemáticas, realizar comparaciones y tomar decisiones en la lógica del programa.
+
+### Operadores aritméticos
 
 * Sumar = +
 * Restar = -
@@ -43,7 +47,7 @@ Prara crear una variable en Java es necesario declarar primeramente el tipo de d
 * Dividir = /
 * Resto = % 
 
-## Tipos de números
+#### Tipos de números
 * byte
     * Rango: -128 a 127
 
@@ -71,3 +75,37 @@ Prara crear una variable en Java es necesario declarar primeramente el tipo de d
 * boolean
     * Rango: true o false
 
+### Operadores de comparación
+
+Estos operadores se utilizan para realizar comparaciones entre valores y devuelven un resultado booleano (verdadero o falso) según se cumpla o no la condición establecida.
+
+* Operador de igualdad: ==
+    * Descripción: Comprueba si dos valores son iguales.
+
+* Operador de desigualdad: !=
+    * Descripción: Comprueba si dos valores son diferentes.
+
+* Operador mayor que: >
+    * Descripción: Comprueba si el valor de la izquierda es mayor que el valor de la derecha.
+
+* Operador menor que: <
+    * Descripción: Comprueba si el valor de la izquierda es menor que el valor de la derecha.
+
+* Operador mayor o igual que: >=
+    * Descripción: Comprueba si el valor de la izquierda es mayor o igual que el valor de la derecha.
+
+* Operador menor o igual que: <=
+    * Descripción: Comprueba si el valor de la izquierda es menor o igual que el valor de la derecha.
+
+### Operadores lógicos 
+
+Estos operadores lógicos se utilizan para combinar y evaluar condiciones booleanas. El operador && requiere que ambas condiciones sean verdaderas para que el resultado sea verdadero, mientras que el operador || devuelve verdadero si al menos una de las condiciones es verdadera. El operador ! se utiliza para negar una condición.
+
+* Operador lógico AND: &&
+    * Descripción: Devuelve true si ambos operandos son true, de lo contrario, devuelve false.
+
+* Operador lógico OR: ||
+    * Descripción: Devuelve true si al menos uno de los operandos es true, de lo contrario,  devuelve false.
+
+* Operador lógico NOT: !
+    * Descripción: Invierte el valor de un operando booleano. Si el operando es true, devuelve false; si el operando es false, devuelve true.
