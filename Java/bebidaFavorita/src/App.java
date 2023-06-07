@@ -1,4 +1,4 @@
-// Este código tiene como propósito declarar variables, tipo de variables y concatenarlas
+// Este código permite ingresar un valor por consola y regresarlo acompa;ado de un mensaje.
 // Para presentar un mensaje compuesto de las diversas variables, 
 // Asi mismo contiene codigo que permite usar la consola para ingresar datos en string
 // Primero se declara el tipo de variable, su nombre y el contenido
