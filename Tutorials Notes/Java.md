@@ -35,3 +35,10 @@ Prara crear una variable en Java es necesario declarar primeramente el tipo de d
 
 **String** *marca* = ***"Taragüi"***
 
+## Operadores aritméticos
+
+* Sumar = +
+* Restar = -
+* Multiplicar = *
+* Dividir = /
+* Resto = % 
