@@ -29,5 +29,9 @@ Java es un lenguaje de programación de alto nivel y propósito general ampliame
 
 * l33t: F3CH4D3N4C1M13Nt0 -> se usa para las contraseñas
 
+## Crear variables 
 
+Prara crear una variable en Java es necesario declarar primeramente el tipo de dato que alvergará, posteriormente el nombre de la variable y por ultimo el valor de la misma, a continuación un ejemplo:
+
+**String** *marca* = ***"Taragüi"***
 
