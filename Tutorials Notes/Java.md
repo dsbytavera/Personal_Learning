@@ -4,3 +4,30 @@ Java es un lenguaje de programación de alto nivel y propósito general ampliame
 
 ## Reglas de Nomenclatura
 
+* No usar Espacios
+    * Correcto: "NombreDelProyecto
+    * Incorrecto: "Nombre Del Proyecto"    
+
+* No iniciar con un numero
+    * Correcto: "Proyecto2"
+    * Incorrecto: "2Proyecto"
+
+* No usar palabras reservada como:
+    *if
+    *while
+    *for
+
+## Convenciones de nombres
+
+* camelCase: fechaDeNacimiento -> se usa para declarar una variable
+
+* snake_case: fecha_de_nacimiento -> base de datos
+
+* SCREAMNG_SNAKE_CASE: FECHA_DE_NACIMIENTO -> constantes
+
+* kebab-case: fecha-de-nacimiento -> urls / nombre de carpetas
+
+* l33t: F3CH4D3N4C1M13Nt0 -> se usa para las contraseñas
+
+
+
