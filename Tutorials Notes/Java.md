@@ -5,7 +5,7 @@ Java es un lenguaje de programación de alto nivel y propósito general ampliame
 ## Reglas de Nomenclatura
 
 * No usar Espacios
-    * Correcto: "NombreDelProyecto
+    * Correcto: "NombreDelProyecto"
     * Incorrecto: "Nombre Del Proyecto"    
 
 * No iniciar con un numero
@@ -13,9 +13,9 @@ Java es un lenguaje de programación de alto nivel y propósito general ampliame
     * Incorrecto: "2Proyecto"
 
 * No usar palabras reservada como:
-    *if
-    *while
-    *for
+    * if
+    * while
+    * for
 
 ## Convenciones de nombres
 
