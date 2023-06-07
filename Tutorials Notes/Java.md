@@ -42,3 +42,32 @@ Prara crear una variable en Java es necesario declarar primeramente el tipo de d
 * Multiplicar = *
 * Dividir = /
 * Resto = % 
+
+## Tipos de números
+* byte
+    * Rango: -128 a 127
+
+* short
+    * Rango: -32,768 a 32,767
+
+* int
+    * Rango: -2,147,483,648 a 2,147,483,647
+
+* long
+    * Rango: -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807
+
+* float
+    * Rango: aproximadamente ±1.4 x 10^-45 a ±3.4 x 10^38
+      Precisión: 6-7 dígitos decimales
+
+* double
+    * Rango: aproximadamente ±4.9 x 10^-324 a ±1.8 x 10^308
+      Precisión: 15 dígitos decimales
+
+* char
+    * Rango: 0 a 65,535
+      Representa caracteres Unicode
+
+* boolean
+    * Rango: true o false
+
