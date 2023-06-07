@@ -1,13 +1,25 @@
 // Este código tiene como propósito declarar variables, tipo de variables y concatenarlas
-// Para presentar un mensaje compuesto de las diversas variables 
+// Para presentar un mensaje compuesto de las diversas variables, 
+// Asi mismo contiene codigo que permite usar la consola para ingresar datos en string
 // Primero se declara el tipo de variable, su nombre y el contenido
+
+// A continuación se importan las clases necesarias 
+
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.BufferedReader;
+
 public class App {
-    public static void main(String[] args) {
-             String marca = "Taragüi"; //variable string que contiene una marca de mate
-             String frase = "El mate que compré es marca "; // variable string con una frase complemento
-             String frase2 = ", y me costó "; // variable string con seguda frase complemento
-             Integer costo = 227; // variable de numero entero con el costo del mate
-             System.out.println(frase + marca + frase2 + costo); // output compuesto de las variables 
+    public static void main(String[] args) throws IOException {
+        InputStreamReader capturarTeclado = new InputStreamReader(System.in);
+        BufferedReader buffer = new BufferedReader(capturarTeclado);
+
+        System.out.println("Ingrese su bebida Favorita");
+        String texto = buffer.readLine();
+
+             String bebida = texto; //variable string que contiene la bebida
+             String frase = "Esta es mi bebida favorita: "; // variable string con una frase complemento
+             System.out.println(frase + bebida); // output compuesto de las variables 
              
     }
 }
