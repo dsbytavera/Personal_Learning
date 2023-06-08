@@ -26,12 +26,13 @@ public class App {
 
     // Esta función lee el texto ingresado por consola y lo transforma a double
     
+  
     public static Double numConsola () throws IOException {
         InputStreamReader capturarTeclado = new InputStreamReader(System.in);
         BufferedReader buffer = new BufferedReader(capturarTeclado);
         String texto = buffer.readLine();
         Double num = Double.parseDouble(texto);
-        return num;
+        return num; 
     }
     
     // Con esta función se calcula el promedio de los tres números que ingresaron por consola
