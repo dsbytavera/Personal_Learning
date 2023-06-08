@@ -10,27 +10,32 @@ import java.io.BufferedReader;
 public class App {
     
     public static void main(String[] args) throws IOException {
-        InputStreamReader capturarTeclado = new InputStreamReader(System.in);
-        BufferedReader buffer = new BufferedReader(capturarTeclado);
+       
+        
+        System.out.println("Ingrese el primer número:");
+        Double num1 = numConsola();
 
-        System.out.println("Ingrese el primer número entero:");
-        String texto1 = buffer.readLine();
-        Integer num1 = Integer.parseInt(texto1);
+        System.out.println("Ingrese el segundo número:");
+        Double num2 = numConsola();
 
-        System.out.println("Ingrese el segundo número entero:");
-        String texto2 = buffer.readLine();
-        Integer num2 = Integer.parseInt(texto2);
-
-        System.out.println("Ingrese el tercer número entero:");
-        String texto3 = buffer.readLine();
-        Integer num3 = Integer.parseInt(texto3);
+        System.out.println("Ingrese el tercer número:");
+        Double num3 = numConsola();
 
         calcularPromedio(num1, num2, num3);
     }
 
-    /**
-     * Con esta función se calcula el promedio de los tres números que ingresaron por consola
-     */
+    // Esta función lee el texto ingresado por consola y lo transforma a double
+    
+    public static Double numConsola () throws IOException {
+        InputStreamReader capturarTeclado = new InputStreamReader(System.in);
+        BufferedReader buffer = new BufferedReader(capturarTeclado);
+        String texto = buffer.readLine();
+        Double num = Double.parseDouble(texto);
+        return num;
+    }
+    
+    // Con esta función se calcula el promedio de los tres números que ingresaron por consola
+     
     public static void calcularPromedio(double num1, double num2, double num3) {
         double promedio = (num1 + num2 + num3) / 3;
         System.out.println("El promedio de esos tres valores es: " + promedio);
