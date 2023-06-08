@@ -109,3 +109,13 @@ Estos operadores lógicos se utilizan para combinar y evaluar condiciones boolea
 
 * Operador lógico NOT: !
     * Descripción: Invierte el valor de un operando booleano. Si el operando es true, devuelve false; si el operando es false, devuelve true.
+
+## Funciones 
+
+Una función en Java es un bloque de código reutilizable que realiza una tarea específica. Puede recibir parámetros, realizar cálculos y devolver un resultado. Las funciones se definen con un nombre, tipo de retorno (opcional) y lista de parámetros (opcional). Pueden ser invocadas desde otros lugares del programa para ejecutar su lógica y obtener un valor de retorno si corresponde. Las funciones permiten modularizar el código y promueven la reutilización, lo que facilita el desarrollo y mantenimiento del software.
+
+tipoDeRetorno nombreDeLaFuncion(parámetros) {
+    // Código de la función
+    // ...
+    return valorDeRetorno;
+} 
