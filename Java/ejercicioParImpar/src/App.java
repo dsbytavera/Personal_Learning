@@ -12,7 +12,7 @@ public class App {
     public static void main(String[] args) throws IOException {
        
         
-        System.out.println("Ingrese el primer número:");
+        System.out.println("Ingrese un número:");
         Double num1 = numConsola();
         parImpar(num1);
         
@@ -36,11 +36,11 @@ public static void parImpar (double num1) {
     String par; 
 
     if (resto == 0) {
-        par = "Verdadero"; 
+        par = "Par"; 
     } else {
-        par = "Falso";
+        par = "Impar";
     }
-     System.out.println("El numero que fue ingresado es:" + par);
+     System.out.println("El numero que fue ingresado es: " + par);
 
     }
 
