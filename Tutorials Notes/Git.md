@@ -47,3 +47,5 @@ El comando [git status] permite conocer el estatus de nuestro código y sus camb
 * Commit= comprometemos los cambios elegidos, se aplican estos cambios en el código, para esto se utiliza el comando [git commit -m "(mensaje)"]
 
 * Server= Este proyecto con sus cambios se comparte en la nube
+
+Esto es una prueba
